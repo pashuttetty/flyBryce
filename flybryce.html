@@ -1,0 +1,135 @@
+﻿<html>
+	<head>
+		<title>  flyBryce </title>
+		
+		<meta charset="utf-8" />
+        
+        <link href="css/bootstrap.css" rel="stylesheet" />
+    	<link href="css/stylesheet.css" rel="stylesheet" />
+        
+       
+		
+	</head>
+	
+	<body>
+        
+		<div class="text-head-div"> <span class="text-color-blue">F</span>LYBRYCE 
+            <button type="button" id="loginBTN" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Login</button>
+        
+        </div>
+        
+        <!-- popup login dialog to login, using bootstrap-->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="login_form" method="post">
+                            Username: <br /> <input type="text" placeholder="*Enter your username" id="username" /><br />
+                            Password: <br /> <input type="password" placeholder="*Enter your password" id="password" /><br/>
+                            <input type="button" id="doLoginBtn" value="Login" data-dismiss="modal"/>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- creating the menu using bootstrap-->
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="flybryce.html">Home</a></li>
+            <li><a href="about_us.html">About us</a></li>
+            <li><a href="contact_us.html"> Contact us</a></li>
+            <li><a href="search_flights.html">Search Flights</a></li>
+        </ul>
+
+
+
+
+        <!-- creating the menu using reglar divs (html+css)-->
+		<!--<div class="menu-div">
+			<div class="text-color-blue"> <a href="flybryce.html">Home</a> </div>
+			<div ><a href="about_us.html">About us</a>  </div>
+			<div class="contact"><a href = "contact_us.html"> Contact us </a></div>
+			<div class="search-flight"> <a href = "search_flights.html"> Search Flights </a> </div> 
+		</div>-->
+		<!--<div class="hamburger"><img src="images/hamburger.jpg";/> </div>-->
+	
+		<div class="headline" ><h1>FlyBryce<span class="text-color-black"> Come Fly With Us</span> </h1>
+           
+        </div>
+
+		<div class="text-head-div">Destinations</div>
+
+		<div class="images-container" >
+			<div name="london" class="img-container"> 
+				<div class="curtain"></div>
+				<img name="London" src="images/1.jpg";/>
+			</div>
+			<div  class="img-container">
+				<div class="curtain"></div>
+				<img name="Paris" src="images/2.jpg";/>
+			</div>
+			<div  class="img-container">
+				<div class="curtain"></div>
+				<img name="Tokyo" src="images/3.jpg";/>
+			</div>
+			<div  class="img-container"> 
+				<div class="curtain"></div>
+				<img name="Tel-aviv" src="images/4.jpg";/>
+			</div>
+			<div class="img-container">
+				<div class="curtain"></div>
+				<img name="Barcelona" src="images/5.jpg";/>
+			</div>
+			<div class="img-container"> 
+				<div class="curtain"></div>
+				<img name="Berlin" src="images/6.jpg";/>
+			</div>
+			<div  class="img-container">
+				<div class="curtain"></div>
+				<img name="Sydney" src="images/7.jpg";/>
+			</div>
+			<div class="img-container">
+				<div class="curtain"></div>
+				<img name="New-York" src="images/8.jpg";/>
+			</div>
+		</div>
+
+		<div style="clear:both"></div>
+        <!--TODO: design the footer with bootstrap: http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h-->
+        <div id="footer">
+            <div class="left"><h4>Get in touch with us</h4>
+                FlyBryce company inc<br/>
+                Homa umigdal 29,<br /> Tel aviv-Yafo, Israel<a href="https://goo.gl/maps/vMkfYbnFHA12" target="_blank"> <img src="images/googlemap.png" /></a><br/>
+                +972-3710-0777<br/>
+                email@flybryce.com<br/>            
+            </div>
+
+            <div class="right"><h4>Latesed destinations</h4>Paris<br />London<br />NewYork<br />Sydney<br />.</div>
+
+            <div class="centered"><h4>Pages</h4> 
+                 <a href="flybryce.html">Home</a><br />
+                 <a href="about_us.html">About us</a><br/>
+                 <a href="contact_us.html">Contact us</a><br/>
+                 <a href="search_flights.html">Search flights</a><br/>
+                    Follow us:
+                    <a href="https://twitter.com/" target="_blank"> <img src="images/twiiter30x30.png" /></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook-icon.png" /></a>
+                    <a href="https://www.linkedin.com/" target="_blank"> <img src="images/linkedin.png" /></a>
+                    <a href="https://plus.google.com/" target="_blank"> <img src="images/google+.png" /></a>
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>

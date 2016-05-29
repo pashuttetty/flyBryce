@@ -1,0 +1,351 @@
+.text-head-div{
+	/*margin-left:11%;*/
+	width:100%;
+	height:10%;
+	/*display: inline;*/
+	font-size:24px;
+
+}
+
+#loginBTN{
+    float:right;
+}
+
+
+.menu-div{
+	float:right;
+	margin-right:10%;	
+	display: inline;
+    
+	
+}
+
+.menu-div div{
+	float:left;
+	margin-left:10px;
+	height:20px;
+	margin-right:10px;
+    
+	
+}
+
+.menu-div a{
+	text-decoration: none;
+    color:black;	
+	
+	
+}
+
+.hamburger{
+	display: none;	
+}
+
+.text-color-blue{
+	 color:#529AB3
+}
+
+.text-color-black{
+	color:black;
+	
+}
+
+
+.headline{
+
+	color: #529AB3;
+	background-color:#E8EAEB;
+	margin-top:10px;
+	margin-bottom:20px;
+	height:70px;
+	text-align:center;
+	margin-top:20px;
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.images-container{
+	margin-left: 10%;
+    margin-right:5%;
+    /* height: 80%; */
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.img-container{
+	
+	float: left;
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    height: 300px;
+    position: relative;
+	
+}
+
+
+ .images-container img{
+	
+	width:350px;
+	height:100%;
+	
+	
+}
+.curtain{
+	display: none;
+    float: left;
+    position: absolute;
+    opacity: 0.5;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+	color:white;
+	text-align:center;
+}
+
+.curtain img{
+	width:40%;	
+	height:40%;
+	clear:both;
+}
+
+#footer{
+	
+    position: relative;
+    z-index: 10;
+    margin-top: 3em;
+	width:100%;
+	background-color:#529AB3;
+    color: #ffffff;
+    
+}
+
+#footer a{
+    text-decoration: none;	
+    color:#ffffff;
+}
+#footer a:visited{
+    color:#ffffff;
+
+}
+#footer a:hover{
+    font-style:oblique;
+}
+
+.left{
+    text-align:justify;
+    float:left;
+    margin-left:10px;
+    width:25%;
+}
+.right{
+    float:right;
+    text-align:left;;
+    margin-right:10px;
+    width:25%;
+}
+.centered{
+    text-align:center;
+    width:25%%;
+
+}
+
+.headline_contact{
+	background-color:#529AB3;
+	width: 10%;
+    margin-left:50px;
+	height:50px;
+    color:#ffffff;
+    vertical-align: middle;
+	margin-bottom:10px;
+}
+
+#aboutUsDescrioption{
+    width:90%;
+    margin:20px;
+    text-align:left;
+    vertical-align: middle;
+
+}
+
+#goToHistoryBTN{
+    float:right;
+    margin-right:50px;
+}
+
+.plainPic{
+    margin-left:20%;
+}
+.formDiv{
+    margin-left:20%;
+}
+
+ #originDiv,destinationDiv{
+        width:30%;
+        display:inline;
+        float:left;
+    }
+
+
+
+
+/*.headline_contact div{
+	background-color:#529AB3;
+	width:100px;
+	height:60px;
+	color:white;
+	display:inline;
+	text-align:left;
+	line-height: 66px;
+}*/
+
+
+.contactForm{
+	margin-left:10%;
+	
+}
+
+.form_div{
+	float:left;
+	margin: 10px;
+	width:25%;
+	
+}
+
+.textarea{
+	margin: 10px;
+	width: 90%;
+	height: 300px;
+	vertical-align: top;
+	
+}
+
+
+.submit{
+	color:#000000
+	background-color:#529AB3;
+	margin: 10px;
+	
+}
+
+table tr{
+	border: solid 1px black;
+}
+
+#search_results{
+    width:100%;
+    margin:2%;
+    /*height:70%;*/
+    display:none;
+    
+
+}
+
+.single_trip_option{
+    width:200px;
+    display:none;
+    border: solid 2px #808080;
+
+}
+.destination{
+    height:15%;
+    width:100%;
+    margin:0.5px;
+    display:none;
+    border-bottom: 0.5px solid #808080;
+    text-align:center;
+}
+.flight_date{
+    height:15%;
+    width:100%;
+    margin:0.5px;
+    display:none;
+}
+
+.carrier{
+    height:15%;
+    width:100%;
+    margin:0.5px;
+    display:none;
+}
+.flight_date{
+    height:15%;
+    width:100%;
+    margin:0.5px;
+    display:none;
+}
+.totalPrice{
+    height:15%;
+    width:100%;
+    margin:0.5px;
+    display:none;
+    text-align:center;
+    border-top: 1px solid #808080
+}
+
+@media only screen and (min-width : 350px) and (max-width:800px) {
+    .menu-div {
+        display: none;
+		margin-right:0px;
+    }
+	.menu-div div{
+		float:none;
+		display:block;	
+		border-bottom:2px solid black;
+		margin-top:3px;
+	}
+
+	.hamburger{
+        display: block;
+		float:right;
+    }
+	.images-container{
+		width:100%;	
+		margin-left:5%;
+        margin-right:5%;
+		display: center;
+	}
+	.img-container{
+		width:480px;
+	}
+	.img-container img{
+		width:100%;
+	}
+	
+	
+	.headline_contact {
+		width:80%;
+        margin-right:10%;
+	}
+	
+	.form_div{
+		width:480px;	
+		display:block;
+		float:none;
+	}
+	
+	.textarea{
+	    margin: 10px;
+	    width: 90%;
+	    vertical-align: top;
+	
+}
+	.curtain{
+		width: 50%;	
+	}
+
+    #originDiv,destinationDiv{
+        width:90%;
+        display:block;
+        margin:10px;
+    }
+
+    .plainPic{
+    margin-left:8%;
+}
+    .formDiv{
+        margin-left:8%;
+    }
+
+}
